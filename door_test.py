@@ -12,6 +12,9 @@ def test_initial(a_door):
     assert a_door.color == 'green'
 
 
+
+
+
 def test_get_set_color(a_door):
     a_door.color = 'red'
     assert a_door.color == 'red'
